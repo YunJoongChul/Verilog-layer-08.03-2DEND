@@ -9,3 +9,4 @@
 3. ram_row_ctrl 로 row stride 조절
 4. delay로 인한 ram 쪽 데이터 넣는 부분 conv2 state에서 제어 , 원래 구상은 conv5였음
 5. ram address 에 대한 이해가 필요함. 기존에는 그냥 했는데 이번에는 cnt를 통해 56까지 0을 가져갔다가 그 이후로 증가하게함.
+6. ram에 저장되는 시점 wea신호 명확하게 잡기.
