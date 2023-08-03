@@ -2,6 +2,8 @@
 
 ![image](https://github.com/YunJoongChul/Verilog-layer-08.03-2DEND/assets/86291432/4bbd956c-a030-41b8-969e-18f69bb71731)
 
+
+#### input : 32x32, 1~1024의 숫자, weights : 5x5, 1의 숫자, bias : 10, output : 28 x 28 마지막 주소 값 : 29350 + 10 
 1. cnt 사용의 필요성
 2. cnt_ram_ctrl 이라는 cnt를 이용하여 ram의 address, state done, ram_inputdata, wea 조절
 3. ram_row_ctrl 로 row stride 조절
